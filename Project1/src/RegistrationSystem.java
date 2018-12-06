@@ -14,6 +14,7 @@ public class RegistrationSystem extends Application {
 	static Faculty[] Faculties;
 	static RegistrationManager[] RegistrationManagers;
 	static Course[] Courses;
+	int r;
 
 	public static void main(String[] args) throws InterruptedException {
 		Students = new Student[6];
