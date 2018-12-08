@@ -1,5 +1,8 @@
 import java.util.*;
 
+//Faculty class (inherent Person class) has courses attribute array of type Course and three methods ViewSchedule,
+//ViewCourseStudents, AssignGrade and SendWarning
+
 public class Faculty extends Person {
 	private ArrayList<Course> Courses;
 

@@ -1,5 +1,12 @@
 import java.util.*;
 
+/*
+Course class has nine attributes title and finalExaminationDate and finalExaminationLocation of type String,
+crn and creditHour and capacity of type int, 
+Students array of type Student, Faculty of type Faculty, and Pre_Requests array of type Course. It also has toString,
+getter and setter methods.
+*/
+
 public class Course {
 	private int CRN;
 	private String Title;

@@ -1,3 +1,6 @@
+
+//Person class has name of type String , ID of type integer , password of type String ,  
+//major of type String , toString Method ,and  getter and setter methods.
 public class Person {
 	private String Name;
 	private int ID;

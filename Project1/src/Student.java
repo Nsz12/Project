@@ -1,5 +1,8 @@
 import java.util.*;
 
+// Student class (inherent Person class) has a GPA attribute of type double and courses array of types Course and 
+//registrationManagers array of type RegistrationManager and viewScheule, viewTranscript, AddCourse, DropCourse, SearchForCourse, ViewCourseOffering and Override toString methods.
+
 public class Student extends Person {
 	private double GPA;
 	private ArrayList<Course> Courses;

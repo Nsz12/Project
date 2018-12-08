@@ -1,5 +1,12 @@
 import java.util.*;
 
+/*
+ * RegistrationManager class (inherent Person class) has two attributes resgistrationState of type enum, 
+	and CourseOffering array of type Course.
+	It also has six methods which are OpenRegistration, CloseRegistration AssignFinalExaminationDateForACourse, 
+	SetFinalExaminationLocationForACourse, 
+	ArrangeCourses and AddCourseOffering.
+*/
 public class RegistrationManager extends Person {
 	public enum ResgistrationState {
 		Open, Closed

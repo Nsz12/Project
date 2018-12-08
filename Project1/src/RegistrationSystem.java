@@ -9,12 +9,19 @@ import javafx.scene.paint.Color;
 import javafx.scene.text.*;
 import javafx.stage.*;
 
+/*
+RegistrationSystem class which is a class to display the interfaces as scenes using JavaFX, 
+it has four attribute object arrays which they are Students, Faculties,
+RegistrationManagers and Courses which each array of type its class.
+Each element of these arrays has been created most of its attributes randomly.
+It also has a lot of methods which switch between scenes and other tasks.
+*/
+
 public class RegistrationSystem extends Application {
 	static Student[] Students;
 	static Faculty[] Faculties;
 	static RegistrationManager[] RegistrationManagers;
 	static Course[] Courses;
-	
 
 	public static void main(String[] args) throws InterruptedException {
 		Students = new Student[6];
